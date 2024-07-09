@@ -88,7 +88,7 @@ def orders(hist):
         size = int(abs(normalvariate(0, 100)))
         yield t, stock, side, order, size
 
-
+    
 ################################################################################
 #
 # Order Book
